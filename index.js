@@ -59,7 +59,7 @@ search.addEventListener('click', () => {
 /*Evento presionar Enter en el input*/
 inputCiudad.addEventListener('keydown', function(event) {
     if (event.key === 'Enter') {
-        search.click(); // Simula el clic en el botón
+        search.click(); /*Simula el clic en el botón*/
     }
 });
             
