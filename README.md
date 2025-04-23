@@ -22,7 +22,7 @@ Esta es una aplicación web de clima que utiliza la API de OpenWeatherMap para m
 
    ```bash
    git clone https://github.com/tu_usuario/weather-app.git
---   
+ 
 ## Imagenes
 - **Busqueda🔍**
 
