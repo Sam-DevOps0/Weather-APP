@@ -4,6 +4,7 @@ const search = document.querySelector('.search-box button');
 const weatherBox = document.querySelector('.weather-box');
 const weatherDetails = document.querySelector('.weather-details');
 const error404 = document.querySelector('.not-found');
+const inputCiudad = document.querySelector('.search-box input');
 /*Evento hacer click en el boton de busqueda*/ 
 search.addEventListener('click', () => {
 /*Obtiene la ciudad ingresada y al clave de la API*/ 
@@ -35,6 +36,7 @@ search.addEventListener('click', () => {
             const description = document.querySelector('.weather-box .description');
             const humidity = document.querySelector('.weather-details .humidity span');
             const wind = document.querySelector('.weather-details .wind span');
+            const inputCiudad = document.querySelector('.search-box input');
 /*Elige la imagen segun el clima*/ 
             switch (json.weather[0].main) {
                 case 'Clear':
@@ -72,6 +74,10 @@ search.addEventListener('click', () => {
             weatherDetails.classList.add('fadeIn');
             container.style.height = '590px';
 
+            inputCiudad.addEventListener('keydown', function(event) {
+            if (event.key === 'Enter') {
+            search.click(); /*Simula el clic en el botón*/
+    }
 
         });
 
