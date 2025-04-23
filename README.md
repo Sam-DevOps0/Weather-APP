@@ -1,7 +1,7 @@
 # Weather App 🌤️
 Esta es una aplicación web de clima que utiliza la API de OpenWeatherMap para mostrar información actual sobre el clima de cualquier ciudad ingresada por el usuario. La app muestra la temperatura, descripción del clima, humedad, velocidad del viento y un icono representativo del estado del tiempo.
 
-Puedes verlo aquí: [sam-devops0.github.io/Portfolio](https://sam-devops0.github.io/Weather/)
+Puedes verlo aquí: [Weather App](https://sam-devops0.github.io/Weather/)
 
 ## Funcionalidades ⚙️
 
