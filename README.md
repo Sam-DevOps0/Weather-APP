@@ -22,10 +22,16 @@ Esta es una aplicación web de clima que utiliza la API de OpenWeatherMap para m
 
    ```bash
    git clone https://github.com/tu_usuario/weather-app.git
-## Imagen
-Busqueda
+   
+## Imagenes
+- **Busqueda🔍**
+
 ![Captura de pantalla 2025-04-22 205014](https://github.com/user-attachments/assets/2dbc082d-086d-4474-be1e-497965470c8c)
-Locacion
+
+- **Locacion🌦️**
+
 ![Captura de pantalla 2025-04-22 210313](https://github.com/user-attachments/assets/4862ee73-4843-4ae5-8f30-bc50c3963436)
-Locacion invalida o no existente
+
+- **Locacion invalida o no existente🚫**
+
 ![Captura de pantalla 2025-04-22 210327](https://github.com/user-attachments/assets/aa6a72f2-384b-4c9a-8836-40d41c6e17ae)
